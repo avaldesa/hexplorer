@@ -1,0 +1,19 @@
+<section id="service">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="sec-title text-center">
+          <h2 class="wow animated bounceInLeft"><%= t(:services_title) %></h2>
+
+          <p class="wow animated bounceInRight"><%= t(:services_note) %></p>
+        </div>
+      </div>
+      <% time_delay=0 %>
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <% @services.each do |t| %>
+            <%= render partial: 'shared/service_box', locals: {time_delay: time_delay+=0.3, tour: t} %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>

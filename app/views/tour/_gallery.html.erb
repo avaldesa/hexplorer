@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="sec-title text-center wow animated fadeInDown">
+    <h2>Gallery</h2>
+    <ul class="project-wrapper wow animated fadeInUp">
+      <% index=1 %>
+      <% 6.times do %>
+          <li class="portfolio-item">
+            <img src="<%= get_url_images %><%= "cuba_#{index}.jpg" %>" class="img-responsive" alt="<%= t("image_description_#{index}") %>">
+            <figcaption class="mask">
+              <h3><%= t("image_title_#{index}") %></h3>
+            </figcaption>
+            <ul class="external">
+              <li>
+                <a class="fancybox" title="<%= t("image_title_#{index}") %>" data-fancybox-group="works" href="<%= get_url_images %><%= "cuba_#{index}.jpg" %>"><i class="fa fa-search"></i></a>
+              </li>
+            </ul>
+          </li>
+          <% index+=1 %>
+      <% end %>
+    </ul>
+  </div>
+</div>

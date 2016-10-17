@@ -1,0 +1,9 @@
+<div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInUp" style="margin-top: 25px">
+  <a href="<%= tour_details_path(tour[:id]) %>">
+    <div class="tour_box <%= pos.even? ? 'even' : 'odd' %>">
+      <%= image_tag 'specialized_tour.png', class: 'stamp' unless tour[:normal] %>
+      <%= image_tag get_url_images + "tour_#{tour[:id]}.jpg", class: 'img-responsive' %>
+      <div class="tour_name"><%= tour[:name] %></div>
+    </div>
+  </a>
+</div>

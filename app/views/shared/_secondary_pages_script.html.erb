@@ -1,0 +1,8 @@
+<% content_for :inline_scripts do %>
+<script>
+$('#nav a').on('click', function () {
+    var link = $(this).attr('href');
+    window.location.replace(link);
+})
+</script>
+<% end %>

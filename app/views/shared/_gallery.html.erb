@@ -1,0 +1,56 @@
+<section id="about_cuba_gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <div class="sec-title text-center wow animated fadeInDown">
+          <h2>About Cuba</h2>
+
+          <p>The Republic of Cuba is made up of several groups of isles, islets, and keys, namely an archipelago. This
+            archipelago, the largest of the Caribbean Antillean region, includes the Isle of Cuba, the Isle of Youth and
+            some 4,195 keys and islets. Cuba is located at the entrance of the Gulf of Mexico. Descendants from
+            Spaniards,
+            Africans and Asians create a unique mixture that composes the local population, which is near 12 million
+            residents. Nearly 3 million citizens live in the capital, Havana City, although there are other important
+            cities in the isle like Santiago de Cuba, Camagüey, Holguín, Cienfuegos and Matanzas.</p>
+
+          <p> Havana looks nowadays much as it was built centuries ago.Most of buildings stand today are the testimony
+            of
+            the Spanish colonial architecture of those times. Big '50s and '60s American vehicles still dominate the
+            streets creating an unforgettable time traveling experience. Old Havana is the city's oldest section, which
+            has been declared a UNESCO World Heritage Site, in 1982. This old section includes valuable monuments like
+            La
+            Fuerza Fortress; La Cabaña Fortress and El Morro and La Punta castles, all of them designed to protect Old
+            Havana from pirate attacks in colonial times.</p>
+
+          <p>The Havana city, appointed recently as “Wonder City”, offers you a wide variety of places of historical,
+            cultural, religious, architectural and artistic value. Havana’s nightlife is very hectic, with many cinemas,
+            historic theatres, cabarets and nightclubs to choose. The colonial architecture, the Cuban traditional
+            culture, and the kindness of Havana's people are the biggest appeals of the city.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="gallery">
+  <div class="container">
+    <div class="row">
+      <div class="sec-title text-center wow animated fadeInDown">
+        <h2>Gallery</h2>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <ul class="project-wrapper wow animated fadeInUp">
+            <% index=1 %>
+            <% @gallery.times do %>
+                <li class="portfolio-item">
+                  <img src="<%= get_url_images %><%= "#{index}.jpg" %>" class="img-responsive" alt="<%= t("image_description_#{index}") %>">
+                  <figcaption class="mask">
+                    <h3><%= t("image_title_#{index}") %></h3>
+                  </figcaption>
+                </li>
+                <% index+=1 %>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

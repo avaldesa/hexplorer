@@ -1,0 +1,60 @@
+<header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+  <div class="container">
+    <div class="navbar-header">
+      <!-- responsive nav button -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- /responsive nav button -->
+
+      <!-- logo -->
+      <h1 class="navbar-brand">
+        <a href="<%= home_path %>">
+          <%= image_tag 'logo.png', id:'logo' %>
+        </a>
+      </h1>
+      <!-- /logo -->
+    </div>
+
+    <!-- main nav -->
+    <nav class="collapse navbar-collapse navbar-right" role="navigation">
+      <% if controller.controller_name == "home" %>
+          <ul id="nav" class="nav navbar-nav">
+            <li><a href="#body">Home</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#about_cuba_gallery">About Cuba</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#tips">Tips</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><%= form_tag home_path, class: 'locale' do %>
+                  <%= select_tag 'set_locale',
+                                 options_for_select(LANGUAGES, I18n.locale.to_s),
+                                 onchange: 'this.form.submit()' %>
+                  <%= submit_tag 'submit', style: 'display:none' %>
+              <% end %></li>
+          </ul>
+      <% else %>
+          <ul id="nav" class="nav navbar-nav">
+            <li><%= link_to 'Home', home_path(anchor: "body") %></li>
+            <li><%= link_to 'Service', home_index_path(anchor: "service") %></li>
+            <li><%= link_to 'Tours', home_index_path(anchor: "tours") %></li>
+            <li><%= link_to 'About Cuba', home_index_path(anchor: "about_cuba_gallery") %></li>
+            <li><%= link_to 'Gallery', home_index_path(anchor: "gallery") %></li>
+            <li><%= link_to 'Tips', home_index_path(anchor: "tips") %></li>
+            <li><%= link_to 'Contact', home_index_path(anchor: "contact") %></li>
+            <li><%= form_tag home_path, class: 'locale' do %>
+                  <%= select_tag 'set_locale',
+                                 options_for_select(LANGUAGES, I18n.locale.to_s),
+                                 onchange: 'this.form.submit()' %>
+                  <%= submit_tag 'submit', style: 'display:none' %>
+              <% end %></li>
+          </ul>
+      <% end %>
+    </nav>
+    <!-- /main nav -->
+  </div>
+</header>

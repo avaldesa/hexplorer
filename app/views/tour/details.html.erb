@@ -1,0 +1,55 @@
+<section id="tour">
+  <div class="container">
+    <div class="row">
+      <ol class="breadcrumb">
+        <li><%= link_to 'Home', home_path(anchor: "body") %></li>
+        <li><%= link_to 'Tours', home_index_path(anchor: "tours") %></li>
+        <li class="active"><%= @tour[:name] %></li>
+      </ol>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-sm-7 col-xs-12">
+        <div class="sec-title text-center wow animated fadeInDown">
+          <div class="col-md-10 col-sm-12">
+            <h2>
+              <%= @tour[:name] %></h2>
+          </div>
+          <div class="col-md-2 col-sm-6">
+            <%= image_tag 'specialized_tour.png', class: 'img-responsive stamp' unless @tour[:normal] %>
+          </div>
+          <div class="col-md-5 <%= @tour[:normal] ? 'col-sm-12' : 'col-sm-6' %>">
+            <%= image_tag get_url_images + "tour_#{@tour[:id]}.jpg", class: 'img-responsive' %>
+          </div>
+          <div class="col-md-7 col-sm-12">
+            <div class="tour_description"><%= @tour[:description].html_safe %></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-5 col-xs-12 wow animated fadeInUp" data-wow-delay="0.8s">
+        <div class="price-table text-center">
+          <span><i class="fa fa-star" style="margin-right: 10px"></i>Book with us</span>
+          <ul>
+            <li>
+              <p><i class="fa fa-calendar"></i><%= @tour[:frequency] %></p>
+
+              <p><i class="fa fa-clock-o"></i><%= @tour[:duration] %></p>
+
+              <p><i class="fa fa-map-marker"></i><%= @tour[:departure] %></p>
+            </li>
+            <li>If you wish to book this service or a custom-designed service more suitable to your needs, please
+              contact us.
+            </li>
+            <li>
+              <address class="contact-details">
+                <p><i class="fa fa-phone"></i>Phone: <%= HavanaExplore.contact[:phone] %> </p>
+
+                <p><i class="fa fa-envelope"></i><%= HavanaExplore.contact[:email] %></p>
+              </address>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<%= render partial: 'shared/secondary_pages_script' %>

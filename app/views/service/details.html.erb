@@ -1,0 +1,37 @@
+<section id="tour">
+  <div class="container">
+    <div class="row">
+      <ol class="breadcrumb">
+        <li><%= link_to 'Home', home_path(anchor: "body") %></li>
+        <li><%= link_to 'Services', home_index_path(anchor: "service") %></li>
+        <li class="active"><%= @service[:name] %></li>
+      </ol>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <div class="sec-title text-center wow animated fadeInDown">
+          <h2><%= @service[:name] %></h2>
+
+          <p><%= @service[:description] %>
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12 wow animated fadeInUp" data-wow-delay="0.8s">
+        <div class="price-table text-center">
+          <span><i class="fa <%= @service[:icon] %>" style="margin-right: 10px"></i>Book with us</span>
+          <ul>
+            <li>If you wish to book this service or a custom-designed service more suitable to your needs, please contact us.</li>
+            <li>
+              <address class="contact-details">
+                <p><i class="fa fa-phone"></i>Phone: +53 5 511 2369 </p>
+
+                <p><i class="fa fa-envelope"></i>havanaexplore@gmail.com</p>
+              </address>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<%= render partial: 'shared/secondary_pages_script' %>

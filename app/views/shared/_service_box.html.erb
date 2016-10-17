@@ -1,0 +1,10 @@
+<a href="<%= service_details_path(tour[:id]) %>">
+  <div class="col-md-3 col-sm-6 col-xs-12 text-center wow animated zoomIn" data-wow-delay="<%= time_delay %>s">
+    <div class="service-item">
+      <div class="service-icon">
+        <i class="fa <%= tour[:icon] %> fa-3x"></i>
+      </div>
+      <h3><%= tour[:name] %></h3>
+    </div>
+  </div>
+</a>
