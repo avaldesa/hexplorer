@@ -1,16 +1,22 @@
 Rails.application.routes.draw do
-  get 'havanacitytour/index'
+  get 'home/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
+  controller :home do
+    get 'home' => :index
+  end
+  controller :tour do
+    get 'tours/:id' => :details, as: :tour_details
+  end
 
-  # You can have the root of your site routed with "root"
-   root 'home#index'
+  controller :service do
+    get 'services/:id' => :details, as: :service_details
+  end
 
-  get ':controller(/:action)'
-
-  # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
+  scope '(:locale)' do
+    root 'home#index', via: :all
+  end
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
@@ -32,13 +38,13 @@ Rails.application.routes.draw do
 
   # Example resource route with sub-resources:
   #   resources :products do
-  #     resources :cuba, :sales
+  #     resources :comments, :sales
   #     resource :seller
   #   end
 
   # Example resource route with more complex sub-resources:
   #   resources :products do
-  #     resources :cuba
+  #     resources :comments
   #     resources :sales do
   #       get 'recent', on: :collection
   #     end

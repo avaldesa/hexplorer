@@ -1,2 +1,0 @@
-class HavanacitytourController < ApplicationController
-end

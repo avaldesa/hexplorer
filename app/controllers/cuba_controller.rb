@@ -1,2 +1,0 @@
-class CubaController < ApplicationController
-end
