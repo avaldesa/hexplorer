@@ -20,7 +20,10 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+# links
+  home: 'Home'
+
+
 # sliders
   slider1_text: "A welcoming ligth"
   slider2_text: "The core of the city"
@@ -46,101 +49,103 @@ en:
   city_tour_description: 'Our City Tour service offers you a tour around the historical center and the modern part of the city.You will be able to visit the 4 plazas of Old Havana and walk in the footsteps of Havana´s colonial past with our expert guide offering insightful history along the way.In this area, you can also visit popular museums and a cigar factory. In the modern section of the city you will have a panoramic tour of the most popular neighborhoods (Centro Habana, Vedado and Miramar), making stops at important places like Revolution Square, University of Havana and many others.'
   city_tour_frequency: 'Every day'
   city_tour_departure: 'Havana'
-  city_tour_duration: '9:00 AM- 3:00 PM'
+  city_tour_duration: '9:00 AM - 3:00 PM'
 
   vinales_tour: 'Viñales Tour'
   vinales_description: 'Our Tour around Viñales town offers you the opportunity to visit Pinar del Río, one of our provinces and the centre of the tobacco growing region of Cuba. Viñales is one of the most amazing places of our country, especially for its unique geology and nature. It is a valley, renowned for its tobacco farms called “vegas”, and the astonishing “mogotes”, giant humped rock formations capped with vegetation. The tour includes other stops at beautiful places that make this province the perfect place to enjoy nature and be part of it.'
   vinales_frequency: 'Every day'
   vinales_tour_departure: 'from Havana'
-  vinales_duration: '8:00 AM- 5:00 PM'
+  vinales_duration: '8:00 AM - 6:00 PM'
 
   cienfuegos_tour: 'Cienfuegos-Trinidad Tour'
   cienfuegos_description: '<p> An attractive tour around the old fashioned and laid back city of Cienfuegos with spacious and civilized streets. This city tour includes a visit to Tomas Terry Theatre, to Palacio del Valle and to Jose Marti Park with an explanation of the history and architectural style of the city.  </p><p>Trinidad is considered by many as the most handsome town in Cuba, with gorgeous mansions with multi colored pastel hued terraces and rust-red roofs around it main square. This walking tour offers you an introduction to the city, a UNESCO world heritage site. You will visit the architectural high points of the city and along with and expert guide you will have some insight into its complex history, both in the colonial period and after the revolution. </p>'
   cienfuegos_frequency: 'Every day'
   cienfuegos_tour_departure: 'from Havana'
-  cienfuegos_duration: '8:00 AM- 5:00 PM'
+  cienfuegos_duration: '7:00 AM - 7:00 PM'
 
   playa_giron_tour: 'Playa Girón Tour'
   playa_giron_description: "In this tour you can find some of Cuba's best diving places in Playa Larga and Playa Girón; with an amazing area rich in sponge and coral, with huge drop-offs. You can also visit the Bay of Pigs, a crucial place in the national history as the site of the failed 1961 USA-backed invasion of Cuba. The little Playa Girón museum is where you can find out all about the invasion. As part of this tour you will be able to visit Guamá, a National Park with one of the biggest reserve of crocodiles in Cuba. "
   playa_giron_frequency: 'Every day'
   playa_giron_tour_departure: 'from Havana'
-  playa_giron_duration: '8:00 AM- 5:00 PM'
+  playa_giron_duration: '8:00 AM - 6:00 PM'
 
   architecture_tour: 'Architecture Tour'
   architecture_description: "This is a particular tour to get acquainted with the architectural variety of the city.The Tour will begin in Miramar, an exclusive and residential neighborhood built from the 30’s through the 50’s and it will continue in the Vedado area as a modern city planning instance, and along the Havana seafront. You will also appreciate examples of the architectural transition from the colonial period to the republican time and to modernism as well as residential Art Deco examples from the beginning of the 20th century.  "
   architecture_frequency: 'Every day'
   architecture_departure: 'from Havana'
-  architecture_duration: '9:00 AM- 1:00 PM'
+  architecture_duration: '9:00 AM - 1:00 PM or <br/>1:30 PM - 5:30 PM'
 
   habano_rum_tour: 'Habano and Rum Tour'
   habano_rum_description: "More than products to trade with, Cuban cigars and Rum have become the image of Cuba all over the world. These products have been manufactured in the island for centuries, and they are part of our traditions. In this specialized tour you will visit a cigar factory and the Cigar’s Museum.You will learn about the art of cigar making while interacting with experts in the matter in the place where they have been hand-rolling cigars in the same way for the last 50 years.You will also have the opportunity to buy this product at specialized cigar stores. As to the Cuban rum, you will visit the Rum Museum, where you can taste the Havana Club Rum.The tour will continue with visits to the most famous bars of the old town: the Floridita and the Bodeguita del Medio. "
   habano_rum_frequency: 'Monday to Friday'
   habano_rum_departure: 'from Havana'
-  habano_rum_duration: '9:00 AM- 1:00 PM'
+  habano_rum_duration: '9:00 AM - 1:00 PM or <br/>1:30 PM - 5:30 PM'
 
-  fortresses_tour: 'Habano and Rum Tour'
+  fortresses_tour: 'Fortresses Tour'
   fortresses_description: "Since the port of Havana was crucial for the trade in the island, a system of fortresses was built for its defense in colonial times. These fortresses are part of the area that was declareda UNESCO World Heritage Site. In this tour, you will visit the Castle of the Royal Force, the remains of the ancient City Walls, the San Carlos de la Cabaña Fort, and the Morro Castle."
   fortresses_frequency: 'Every day'
   fortresses_departure: 'from Havana'
-  fortresses_duration: '9:00 AM- 1:00 PM'
+  fortresses_duration: '9:00 AM - 1:00 PM or <br/>1:30 PM - 5:30 PM'
 
   museums_tour: 'Museums Tour'
   museums_description: "Visit any of the museums of the Historical Center at will. Choose and we will take you on a journey through history:
                         City Museum (former Palace of the Capitan Generals), House of the Arabs, the Old Automobile Museum, House of Africa, José Marti’s Birthplace, Colonial Art Museum, St. Francis of Assisi’s Convent, Goldsmith’s Museum, The Archeology Museum, Revolution Museum, Rum Museum, Cigar Museum, Museum of Fine Arts."
   museums_frequency: 'Every day'
   museums_departure: 'from Havana'
-  museums_duration: '9:00 AM- 1:00 PM'
+  museums_duration: '9:00 AM - 1:00 PM or <br/>1:30 PM - 5:30 PM'
 
   hemingway_tour: 'Hemingway Tour in classic American Car'
   hemingway_description: "<p>In the periphery of Havana, on a hill surrounded by tropical vegetation and an outstanding view of the city, you can find Hemingway’s villa.Visited during the 1940s and ´50s by numerous renowned celebrities is one of the most visited places in Havana. The house today is exactly as Hemingway left it 1960: hundreds of personal belongings, his large swimming pool, the Wheeler boat he used to fish, the three-story tower with a spectacular views, and much more. You will also be able to see Cojimar fishing village: a small and charming town that inspired Hemingway to write the novel The Old Man and the Sea, and whose fishermen he dedicated his Nobel Prize to.
                           <p/><p>As you finish the tour you will have an opportunity to see some of the most spectacular views of the city from the El Morro fort across the harbor from Havana.</p> "
   hemingway_frequency: 'Every day'
   hemingway_departure: 'from Havana'
-  hemingway_duration: '9:00 AM- 1:00 PM'
+  hemingway_duration: '9:00 AM - 1:00 PM or <br/>1:30 PM - 5:30 PM'
 
   mafia_tour: 'Mafia Tour'
   mafia_description: "Since the 1930's Havana was replete with mobsters, it was a sort of paradise for felony. Meyer Lansky, Lucky Luciano, Al Capone to name but a few. This tour visits the haunts of the mafia bosses and along the way takes in the panoramic views of the city, some of the best architecture of this period and a visit to the rum museum. "
   mafia_frequency: 'Every day'
   mafia_departure: 'from Havana'
-  mafia_duration: '9:00 AM- 1:00 PM'
+  mafia_duration: '9:00 AM - 1:00 PM or <br/>1:30 PM - 5:30 PM'
 
   open_top_car_tour: '4-hour drive in a vintage open top car'
   open_top_car_description: "Driving all around Havana in an open top vintage car you will enjoy a panoramic tour of Havana city. Visit the best sightseeing spots like the Revolution Square, Havana’s Forrest, National Hotel, Fusterland Community Project, and the emblematic Malecon while learning about the history of Mafia and its influence the Cuba of the 1950s. "
   open_top_car_frequency: 'Every day'
   open_top_car_departure: 'from Havana'
-  open_top_car_duration: '9:00 AM- 1:00 PM'
+  open_top_car_duration: '9:00 AM - 1:00 PM or <br/>1:30 PM - 5:30 PM'
 
   art_tour: 'Art Tour in Bellas Artes'
   art_description: "In this tour you will visit two Cuban artists’ studios accompanied by our expert guide. You will be able to get behind the façade and interact with this thriving artistic community according to your interests. Many options at your disposal: Photography, Sculpture and Painting. For better understanding you will need to specify whether you would like to see well known or up and coming artists. After the tour you can visit the Museo de Bellas Artes."
   art_frequency: 'Every day'
   art_departure: 'from Havana'
-  art_duration: '9:00 AM- 1:00 PM'
+  art_duration: '9:00 AM - 1:00 PM or <br/>1:30 PM - 5:30 PM'
 
   topes_tour: 'Topes de Collantes Walk'
   topes_description: "Visit Cuba's beautiful nature park, Topes de Collantes, in Trinidad. This is a place of extraordinary beauty and of great scientific value for Cuban botany, zoology and ecology as it has a great number of endemic species of flora and fauna. A trekking tour will offer you the opportunity for birdwatching and swimming at the waterfalls.  Let us know the level of difficulty you prefer for your walk."
   topes_frequency: 'Every day'
   topes_departure: 'from Trinidad'
-  topes_duration: '9:00 AM- 5:00 PM'
+  topes_duration: '9:00 AM - 2:00 PM'
 
   revolution_tour: 'Revolution Tour'
   revolution_description: "<p>Discover Cuba’s revolution history through some of the capital’s most historical sites. Starting with a panoramic trip through the Malecón where you will see the monuments of some of Cuba's Independence War heroes. Visit the Revolution Museum, which was once the luxurious Presidential Palace of all Cuban presidents from Mario García Menocal to Fulgencio Batista. Stop by Hotel Sevilla in Old Havana to see and learn about the most famous mob men in Cuba who had Havana under control until 1959.</p><p>Visit what most non-Cuban will never get to know, a “bodega”, one of those governmental markets used for the distribution of rationed low priced food products to the Cuban people and see the price differences by visiting a fresh food product market (Mercado Agropecuario). Finish this revolution tour in beauty with some city sightseeing at the Revolution Square, symbol of the Cuban socialist revolution.</p>"
   revolution_frequency: 'Every day'
   revolution_departure: 'from Havana'
-  revolution_duration: '9:00 AM- 1:00 PM'
+  revolution_duration: '9:00 AM - 1:00 PM or <br/>1:30 PM - 5:30 PM'
 
   custom_designed_tour: 'Custom Designed Tour'
-  custom_designed_description: "A personal way of traveling. We design your tour according to your own necessities and likes"
+  custom_designed_description: "A personal way of traveling. We design your tour according to your own necessities and likes."
   custom_designed_frequency: 'According to your needs and likes'
   custom_designed_departure: 'According to your needs and likes'
   custom_designed_duration: 'According to your needs and likes'
 
   # about cuba
+  about_cuba: 'About Cuba'
   cuba_review: "<p>The Republic of Cuba is made up of several groups of isles, islets, and keys, namely an archipelago. This archipelago, the largest of the Caribbean Antillean region, includes the Isle of Cuba, the Isle of Youth and some 4,195 keys and islets. Cuba is located at the entrance of the Gulf of Mexico. Descendants from Spaniards, Africans and Asians create a unique mixture that composes the local population, which is near 12 million residents. Nearly 3 million citizens live in the capital, Havana City, although there are other important cities in the isle like Santiago de Cuba, Camagüey, Holguín, Cienfuegos and Matanzas.</p>
                 <p>Havana looks nowadays much as it was built centuries ago.Most of buildings stand today are the testimony of the Spanish colonial architecture of those times. Big '50s and '60s American vehicles still dominate the streets creating an unforgettable time traveling experience. Old Havana is the city's oldest section, which has been declared a UNESCO World Heritage Site, in 1982. This old section includes valuable monuments like La Fuerza Fortress; La Cabaña Fortress and El Morro and La Punta castles, all of them designed to protect Old Havana from pirate attacks in colonial times.</p>
                 <p>The Havana city, appointed recently as “Wonder City”, offers you a wide variety of places of historical, cultural, religious, architectural and artistic value. Havana’s nightlife is very hectic, with many cinemas, historic theatres, cabarets and nightclubs to choose. The colonial architecture, the Cuban traditional culture, and the kindness of Havana's people are the biggest appeals of the city.</p>"
 
   # tips
-  tips: "<p>We would like to give you some useful information for your stay in Cuba:</p>
+  tips: 'Tips'
+  tips_text: "<p>We would like to give you some useful information for your stay in Cuba:</p></div>
   <ol>
   <li>Always drink bottled water and avoid buying food on the street. You should only eat in restaurants.</li>
     <li>In Cuba there are two currencies: CUC and CUP(1 CUC=25 CUP).</li>
@@ -148,10 +153,11 @@ en:
     <li>Credit cards are accepted as long as they are not issued by US banks.</li>
         <li>You will have Internet access only at your hotel, or at the ETECSA´s offices (Cuban Telephone Company).</li>
         <li>While in Cuba, you should leave all your documents (passport, etc.) in the safe box in your hotel room. For your identification on the streets, you only need the hotel card that identifies you as a guest. </li>
-     <li>You can only take to your country 50 Cuban cigars and 4 bottles of Cuban Rum per person. You should buy these products only in specialized stores, never to people on the streets. Before leaving the country, an airport tax of 25 CUC per person must be paid. </li>
+     <li>You can only take to your country 50 Cuban cigars and 4 bottles of Cuban Rum per person. You should buy these products only in specialized stores, never to people on the streets.</li>
   </ol>"
 
   # gallery
+  gallery: 'Gallery'
   image_title_1: 'El Morro and the Malecón'
   image_description_1: 'El Morro and the Malecón'
   image_title_2: '23 and L, Yara cinema and Habana Libre Hotel'
@@ -185,6 +191,12 @@ en:
   image_title_14: ' Saratoga Hotel'
   image_description_14: ' Saratoga Hotel'
 
+  contact: 'Contact us'
+  contact_note: 'If you wish to book this service or a custom-designed service more suitable to your needs, please
+                               contact us.'
+  book_with_us: 'Book with us'
+  phone: 'Phone'
+  copyright: 'Copyright'
 
 
 

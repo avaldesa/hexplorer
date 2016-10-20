@@ -1,0 +1,196 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+es:
+# links
+  home: 'Inicio'
+# sliders
+  slider1_text: "A welcoming ligth"
+  slider2_text: "The core of the city"
+  slider3_text: "A time travelling experience"
+  slider4_text: "A place for meditation<br/> and inner explore"
+  slider5_text: "Be part of our history"
+  slider6_text: "A glimpse of folklore"
+# services
+  services_title: 'Servicios'
+  services_note: 'Puede confiar en nuestra profesionalidad y puntualidad'
+  tours: 'Tours'
+  tours_description: 'Una gran variedad de tours esperan por usted. Elija el destino y nosotros le guiaremos a la mejor experiencia de su vida. '
+  transfers: 'Traslados'
+  transfers_description: 'Un servicio profesional que le permite viajar en cuba de una ciudad a otra de acuerdo a sus necesidades. La puntualidad está garantizada. Nuestro equipo está siempre disponible esperando por su solicitud.'
+  airport_transfer: 'Traslados desde/hacia el Aeropuerto'
+  airport_transfer_description: 'Usted puede hacer una solicitud a nuestro equipo para su traslado desde el aeropuerto hasta su hotel en la Habana o hacia el aeropuerto una vez finalizada su visita a Cuba. En cualquier caso estamos a su disposición esperando su llamado. La puntualidad y el profesionalismo nos caracterizan'
+  translation_interpreting: 'Traducción/Interpretación'
+  translation_interpreting_description: 'Si su visita a Cuba está orientada a eventos específicos independientes al turismo, díganse: negocios, inversiones, con fines educativos, médicos o religiosos, nuestro equipo puede proveerle de un servicio calificado y profesional de traductores e intérpretes a su disposición.'
+  # tours
+  city_tour: 'Recorrido de Ciudad (Habana Vieja y Moderna)'
+  city_tour_description: 'Nuestro recorrido por la ciudad le ofrece una visita guiada a las áreas del Casco Histórico de la Ciudad y la parte moderna de la misma. Usted podrá recorrer las calles y plazas más famosas de la Habana Vieja para disfrutar de las construcciones de mayor antigüedad de la capital. En esta área, también podrá visitar famosos museos así como una fábrica de tabacos. En la sección moderna de la ciudad, tendrá un recorrido panorámico de los barrios más conocidos de la capital (Centro Habana, Vedado y Miramar), con paradas en lugares importantes como la Plaza de la Revolución, la Universidad de la Habana y muchos otros.'
+  city_tour_frequency: 'Todos los días'
+  city_tour_departure: 'Havana'
+  city_tour_duration: '9:00 AM - 3:00 PM'
+
+  vinales_tour: 'Recorrido en Viñales'
+  vinales_description: 'Nuestro recorrido en Viñales le ofrece la oportunidad de visitar Pinar del Río, una de nuestras provincias y el centro de producción de tabaco en Cuba. Viñales es uno de los lugares más increíbles de nuestro país, particularmente por su geología única y su naturaleza. Es un valle famoso por sus sembrados de tabaco llamados “vegas” y sus inmensas formaciones rocosas cubiertas de vegetación conocidas como“mogotes”. El recorrido incluye paradas en otros atractivos destinos que hacen de esta provincia el lugar perfecto para disfrutar de la naturaleza y ser parte de ella.'
+  vinales_frequency: 'Todos los días'
+  vinales_tour_departure: 'desde La Habana'
+  vinales_duration: '8:00 AM - 6:00 PM'
+
+  cienfuegos_tour: 'Recorrido Cienfuegos-Trinidad'
+  cienfuegos_description: '<p> Un recorrido atractivo alrededor de una ciudad tradicional cuya atmósfera relajada le permitirá caminar por calles espaciosas y civilizadas. Este recorrido incluye las visitas al teatro Tomas Terry, al Palacio del Valle y al parque José Martí así como una explicación sobre la historia y el estilo arquitectónico de la ciudad.</p><p>Trinidad es considerada por muchos como la ciudad más atractiva de Cuba debido a sus mansiones  multicolores con terrazas matizadas y sus techos rojizos alrededor de la plaza principal del pueblo. Este recorrido le permitirá conocer a una ciudad declarada por la UNESCO como Patrimonio de la Humanidad a través de la visita a los lugares más arquitecturalmente significativos de la localidad. Con un guía experto podrá conocer sobre la compleja historia de Trinidad tanto en su etapa colonial como después del triunfo de la revolución.</p>'
+  cienfuegos_frequency: 'Todos los días'
+  cienfuegos_tour_departure: 'desde La Habana'
+  cienfuegos_duration: '7:00 AM - 7:00 PM'
+
+  playa_giron_tour: 'Recorrido Playa Girón'
+  playa_giron_description: "En este recorrido usted podrá apreciar algunos de los mejores sitios de Cuba para el buceo en Playa Larga y Playa Girón, con increíbles áreas ricas en esponjas y corales. También podrá visitar la Bahía de Cochinos, lugar de gran importancia en la historia del país por ser el sitio en el cual ocurrió la fallida invasión de los Estados Unidos en 1961. Para conocer más sobre este hecho visitará el pequeño museo Playa Girón. Como parte del recorrido podrá apreciar a Guamá, el parque nacional con una de las mayores reservas de cocodrilos del país."
+  playa_giron_frequency: 'Todos los días'
+  playa_giron_tour_departure: 'desde La Habana'
+  playa_giron_duration: '8:00 AM - 6:00 PM'
+
+  architecture_tour: 'Recorrido de Arquitectura'
+  architecture_description: "Un recorrido especializado que le dará la oportunidad de apreciar la variedad arquitectónica de la ciudad. El recorrido comenzará en el barrio residencial de Miramar, construido entre 1930 y 1950, y continuará en el área del  Vedado como  ejemplo de urbanización moderna, y a lo largo del malecón. También podrá apreciar exponentes de la transición arquitectónica de la etapa colonial a la republicana y al modernismo así como ejemplos de la arquitectura Art Deco de principios del siglo XX."
+  architecture_frequency: 'Todos los días'
+  architecture_departure: 'from Havana'
+  architecture_duration: '9:00 AM - 1:00 PM ó <br/>1:30 PM - 5:30 PM'
+
+  habano_rum_tour: 'Recorrido del Habano y del Tabaco'
+  habano_rum_description: "<p>Cuando se habla de Habanos y Ron pensamos inmediatamente en Cuba. Producidos ambos en la isla desde hace siglos han pasado a formar parte de las tradiciones cubanas. En este recorrido especializado usted podrá visitar una fábrica de tabacos y el Museo del Habano. Aprenderá sobre el arte de la realización del cigarro a través de especialistas en la materia en el lugar donde se han torcido a mano los tabacos durante los últimos 50 años. Además, usted tendrá la posibilidad de comprar los muy famosos Habanos en tiendas especializadas. </p>
+  <p>Para conocer sobre el ron cubano, usted visitará el Museo del Ron, donde degustará el conocido ron Habana Club. El recorrido continuará con visitas a los bares más famosos del área, como el Floridita, y la Bodeguita del Medio.</p>"
+  habano_rum_frequency: 'De Lunes a Viernes'
+  habano_rum_departure: 'desde la Habana'
+  habano_rum_duration: '9:00 AM - 1:00 PM ó <br/>1:30 PM - 5:30 PM'
+
+  fortresses_tour: 'Recorrido de Fortalezas'
+  fortresses_description: "En la etapa colonial, el puerto de la Habana era crucial para el comercio en la isla por lo que se construyó un sistema de fortalezas para su protección. Estas fortalezas forman parte del área declarada Patrimonio de la Humanidad por la UNESCO. En este recorrido usted podrá visitar el Castillo de la Real Fuerza, los restos de la antigua muralla de la ciudad, la Fortaleza de San Carlos de la Cabaña y el Castillo de los Tres Reyes del Morro."
+  fortresses_frequency: 'Todos los días'
+  fortresses_departure: 'desde la Havana'
+  fortresses_duration: '9:00 AM - 1:00 PM ó <br/>1:30 PM - 5:30 PM'
+
+  museums_tour: 'Recorrido de Museos'
+  museums_description: "Un recorrido para viajar por la historia. Visite cualquier museo de su elección:
+                        Museo de la Ciudad (antiguo Palacio de los Capitanes Generales), Casa Árabe, Museo del Automóvil, Casa de África, Casa Natal de José Martí, Museo de Arte Colonial, Convento de San Francisco de Asís, Museo del Orfebre, Museo de Arqueología, Museo de la Revolución, Museo del Ron, Museo del Habano y Museo de Bellas Artes."
+  museums_frequency: 'Todos los días'
+  museums_departure: 'desde la Habana'
+  museums_duration: '9:00 AM - 1:00 PM ó <br/>1:30 PM - 5:30 PM'
+
+  hemingway_tour: 'Recorrido Hemingway en auto clásico'
+  hemingway_description: "<p>En la colina en las afueras de la Habana, rodeada por una abundante vegetación tropical y con magníficas vistas de la ciudad, podemos encontrar la Villa Hemingway. Sitio de reunión de numerosas celebridades en los años 40s y 50s, es uno de los lugares más visitados de Cuba. La casa permanece exactamente como la dejara Hemingway en 1960: cientos de efectos personales, su larga piscina, el bote que solía utilizar para pescar, su torre de tres pisos con vistas espectaculares y mucho más. También podrá visitar el poblado pesquero de Cojimar: un pequeño y pintoresco pueblo en el cual se inspiró Hemingway para escribir su novela El viejo y el mar, y a cuyo pescador dedicara su Premio Nobel.
+                          <p/><p>Al finalizar el recorrido tendrá la oportunidad de apreciar espectaculares vistas de la ciudad desde la fortaleza del Morro. </p> "
+  hemingway_frequency: 'Todos los días'
+  hemingway_departure: 'desde la Habana'
+  hemingway_duration: '9:00 AM - 1:00 PM ó <br/>1:30 PM - 5:30 PM'
+
+  mafia_tour: 'Recorrido Mafia'
+  mafia_description: "En los años 30 la Habana se encontraba colmada de mafiosos por lo que era para muchos una especie de paraíso criminal. Nombres como: Meyer Lansky, Lucky Luciano y Al Capone eran muy conocidos. Este recorrido muestra los lugares más frecuentados por los jefes mafiosos en una vista panorámica de la ciudad. A su vez podrá apreciar la mejor arquitectura del período y realizar una visita al museo del ron."
+  mafia_frequency: 'Todos los días'
+  mafia_departure: 'desde la Habana'
+  mafia_duration: '9:00 AM - 1:00 PM ó <br/>1:30 PM - 5:30 PM'
+
+  open_top_car_tour: '4 horas de recorrido en auto clásico descapotable'
+  open_top_car_description: "Para disfrutar de una vista panorámica de la ciudad usted podrá recorrer la misma en un carro clásico descapotable. Podrá visitar los lugares de mayor interés de la Habana como: La Plaza de la Revolución, El Bosque de  la Habana, El Hotel Nacional, el Proyecto Comunitario Fusterland,  el emblemático Malecón y a su vez podrá aprender sobre la historia de la Mafia y su influencia en la Cuba de los años 50."
+  open_top_car_frequency: 'Todos los días'
+  open_top_car_departure: 'desde la Habana'
+  open_top_car_duration: '9:00 AM - 1:00 PM ó <br/>1:30 PM - 5:30 PM'
+
+  art_tour: 'Recorrido de arte en Bellas Artes '
+  art_description: "En este recorrido visitará dos estudios de arte cubano acompañado por un guía experto. Podrá observar el arte de primera mano e interactuar con la floreciente comunidad artística cubana de acuerdo a sus intereses. Tendrá muchas opciones a su disposición: fotografía, escultura y pintura. Para que su recorrido sea acorde a su deseo deberá especificar si desea ver a artistas conocidos o a los nuevos que van surgiendo. Al finalizar el recorrido podrá visitar el Mueso de Bellas Artes."
+  art_frequency: 'Todos los días'
+  art_departure: 'desde la Habana'
+  art_duration: '9:00 AM - 1:00 PM ó <br/>1:30 PM - 5:30 PM'
+
+  topes_tour: 'Caminata a Topes de Collantes'
+  topes_description: "Visite el hermoso parquet natural en Topes de Collantes, Trinidad. Lugar de extraordinaria belleza y de gran valor científico por su botánica, zoología y ecología así como por su gran variedad de especies endémicas y su flora y fauna. Una caminata que le permitirá apreciar las diversas especies de aves y deleitarse con sus cascadas. Para este recorrido deberá especificar el nivel de complejidad que desea para su caminata."
+  topes_frequency: 'Todos los días'
+  topes_departure: 'desde Trinidad'
+  topes_duration: '9:00 AM - 2:00 PM'
+
+  revolution_tour: 'Tour sobre la Revolución'
+  revolution_description: "<p>Descubra la historia de la Revolución Cubana  a través de los sitios de mayor valor histórico de la capital. Comenzando el recorrido con un paseo panorámico por el Malecón donde podrá apreciar algunos de los monumentos dedicados a líderes de la independencia de Cuba. Seguidamente una visita al Museo de la Revolución, sitio que  fuera anteriormente el lujoso Palacio Presidencial de todos los presidentes desde Mario García Menocal hasta Fulgencio Batista. Una parada en el Hotel Sevilla en la Habana Vieja para ver y aprender sobre los más famosos mafiosos de Cuba quienes tenían bajo control a la Habana hasta 1959. </p><p>Posteriormente una visita a una bodega cubana, lugar poco conocido para extranjeros, así como a un mercado agropecuario, sitio donde podrá apreciar productos alimentarios frescos y valorar las diferencias de precios de acuerdo al mercado internacional. Para finalizar una visita a la Plaza de la Revolución, símbolo inequívoco de la Revolución Socialista Cubana.</p>"
+  revolution_frequency: 'Todos los días'
+  revolution_departure: 'desde la Habana'
+  revolution_duration: '9:00 AM - 1:00 PM ó <br/>1:30 PM - 5:30 PM'
+
+  custom_designed_tour: 'Recorrido personalizado'
+  custom_designed_description: "Su manera personal de viajar, tours diseñados de acuerdo a sus gustos y necesidades."
+  custom_designed_frequency: 'De acuerdo a sus gustos y necesidades'
+  custom_designed_departure: 'De acuerdo a sus gustos y necesidades'
+  custom_designed_duration: 'De acuerdo a sus gustos y necesidades'
+
+  # about cuba
+  about_cuba: 'Sobre Cuba'
+  cuba_review: "<p>La República de Cuba se encuentra formada por un conjunto de islas, islotes y cayos conocidos por el nombre de archipiélago. Este archipiélago, el más grande de la región de las Antillas del Caribe, incluye la Isla de Cuba, la Isla de la Juventud y unos 4 195 cayos e islotes. Cuba se encuentra localizada a la entrada del Golfo de México. La población, de cerca de 12 millones de habitantes, está compuesta por descendientes de españoles, africanos y asiáticos unidos en una mezcla única. Cerca de 3 millones de personas viven actualmente en La Habana, la capital cubana, aunque otras ciudades del país son importantes a mencionar como: Santiago de Cuba, Camagüey, Holguín, Cienfuegos y Matanzas.</p>
+                <p>Actualmente La Habana refleja la elegancia de una ciudad de siglos atrás dado que la mayoría de sus construcciones aún mantienen viva la arquitectura colonial española como un testimonio de otros tiempos. Los autos americanos de las décadas de los 50 y los 60 recorren sus calles permitiendo una inolvidable experiencia tal cual viaje en el tiempo. La sección más antigua de la ciudad, conocida como la Habana Vieja, fue declarada Patrimonio de la Humanidad por la UNESCO en 1982. En la Habana Vieja se encuentran monumentos de gran valor histórico y arquitectónico como las fortalezas “La Fuerza” y “La Cabaña”, el  “Castillo de los Tres Reyes del Morro” y el castillo “La Punta”, todos dedicados a la protección de la ciudad ante los ataques de corsarios y piratas durante la época colonial.</p>
+                <p>La Habana, recientemente declarada como “Ciudad Maravilla”, ofrece una gran variedad de lugares de valor histórico, cultural, religioso, arquitectónico y artístico. La vida nocturna de la ciudad es muy agitada, con  la posibilidad de visitar lugares tan variados como cines, teatros, cabarets y clubes nocturnos. La arquitectura colonial, la cultura tradicional cubana y la hospitalidad de los habaneros constituyen los mayores atractivos de la ciudad.</p>"
+
+  # tips
+  tips: 'Consejos'
+  tips_text: "<p>Nos gustaría brindarle algunas informaciones útiles para su estancia en Cuba:</p></div>
+  <ol>
+  <li>Siempre beba agua embotellada y evite comprar alimentos en las calles. Debe comer solamente en restaurantes.</li>
+    <li>En Cuba existen dos monedas: CUC y CUP (1 CUC=25 CUP).</li>
+    <li>Usted deberá cambiar su dinero a CUC. Si es posible evite cambiar dólares estadounidenses, pues el gobierno le aplica un gravamen del 10% por cada dólar. Le recomendamos cambiar euros, libras o dólares canadienses. Puede realizar este cambio en los bancos o en la Casas de Cambio (CADECA).En el banco necesitará al menos un pasaporte.</li>
+    <li>Puede usar tarjetas de crédito en Cuba, siempre y cuando no hayan sido emitidas por bancos norteamericanos.</li>
+        <li>Podrá tener acceso a internet solo en su hotel, o en las oficinas de ETECSA (Compañía de Telecomunicaciones de Cuba)</li>
+     <li>Durante su estancia en Cuba, deberá guardar sus documentos de viaje (pasaporte, etc.) en la caja fuerte de su habitación de hotel. Para su identificación en las calles solamente necesita su tarjeta de huésped del hotel.</li>
+      <li>Solamente puede llevar a su pais 50 tabacos cubanos y 4 botellas de ron cubano por persona. Debe comprar estos productos en tiendas especializadas nunca a personas en la calle.</li>
+  </ol>"
+
+  # gallery
+  gallery: 'Galería'
+  image_title_1: 'El Morro y el Malecón'
+  image_description_1: 'El Morro y el Malecón'
+  image_title_2: '23 y L, Cine Yara y Hotel Habana Libre'
+  image_description_2: '23 y L, Cine Yara y Hotel Habana Libre'
+  image_title_3: 'Plaza de la Revolución'
+  image_description_3: 'Plaza de la Revolución'
+  image_title_4: 'Vista al mar en Miramar'
+  image_description_4: 'Vista al mar en Miramar'
+  image_title_5: 'Artistas callejeros en la Habana Vieja'
+  image_description_5: 'Artistas callejeros en la Habana Vieja'
+  image_title_6: 'Vara de pescar en el Malecón'
+  image_description_6: 'Vara de pescar en el Malecón'
+  image_title_7: "Sloppy Joe's Bar y autos clásicos"
+  image_description_7: "Sloppy Joe's Bar y autos clásicos"
+
+  image_title_8: 'Carruajes en la Habana Vieja'
+  image_description_8: 'Carruajes en la Habana Vieja'
+
+  image_title_9: "Estatua 'La Conversación' en la Plaza de San Francisco"
+  image_description_9: "Estatua 'La Conversación' en la Plaza de San Francisco"
+
+  image_title_10: 'Galeria de arte en la Havana Vieja'
+  image_description_10: 'Galeria de arte en la Havana Vieja'
+  image_title_11: 'Teatro Alicia Alonso'
+  image_description_11: 'Teatro Alicia Alonso'
+  image_title_12: 'Parque de la Fraternidad'
+  image_description_12: 'Parque de la Fraternidad'
+
+  image_title_13: "Plaza de San Francisco"
+  image_description_13: "Plaza de San Francisco"
+  image_title_14: 'Hotel Saratoga'
+  image_description_14: 'Hotel Saratoga '
+
+  contact: 'Contáctenos'
+  contact_note: 'Si desea reservar este servicio o uno que se ajuste a sus necesidades, por favor contáctenos'
+
+  book_with_us: 'Reserve con nosotros'
+  phone: 'Teléfono'
+  copyright: 'Todos los derechos reservados'

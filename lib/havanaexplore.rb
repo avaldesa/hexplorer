@@ -6,8 +6,8 @@ class HavanaExplore
            :name => I18n.t(:city_tour),
            :description => I18n.t(:city_tour_description),
            :frequency => I18n.t(:city_tour_frequency),
-           :duration => I18n.t(:city_tour_departure),
-           :departure => I18n.t(:city_tour_duration),
+           :duration => I18n.t(:city_tour_duration),
+           :departure => I18n.t(:city_tour_departure),
            :normal => true
        },
        {
@@ -51,8 +51,8 @@ class HavanaExplore
            :name => I18n.t(:habano_rum_tour),
            :description => I18n.t(:habano_rum_description),
            :frequency => I18n.t(:habano_rum_frequency),
-           :duration => I18n.t(:habano_rum_departure),
-           :departure => I18n.t(:habano_rum_duration),
+           :duration => I18n.t(:habano_rum_duration),
+           :departure => I18n.t(:habano_rum_departure),
            :normal => false
        },
        {
@@ -130,10 +130,10 @@ class HavanaExplore
        {
            :id => 15,
            :name => I18n.t(:custom_designed_tour),
-           :description => I18n.t(:revolution_description),
-           :frequency => I18n.t(:revolution_frequency),
-           :duration => I18n.t(:revolution_duration),
-           :departure => I18n.t(:revolution_departure),
+           :description => I18n.t(:custom_designed_description),
+           :frequency => I18n.t(:custom_designed_frequency),
+           :duration => I18n.t(:custom_designed_duration),
+           :departure => I18n.t(:custom_designed_departure),
            :normal => false
        }
       ]
