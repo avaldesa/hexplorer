@@ -23,12 +23,12 @@ es:
 # links
   home: 'Inicio'
 # sliders
-  slider1_text: "A welcoming ligth"
-  slider2_text: "The core of the city"
-  slider3_text: "A time travelling experience"
-  slider4_text: "A place for meditation<br/> and inner explore"
-  slider5_text: "Be part of our history"
-  slider6_text: "A glimpse of folklore"
+  slider1_text: "Una luz de bienvenida"
+  slider2_text: "El centro de la ciudad"
+  slider3_text: "Un viaje en el tiempo"
+  slider4_text: "Un lugar para la meditación"
+  slider5_text: "Sea parte de nuesrtra historia"
+  slider6_text: "Nuestra cultura"
 # services
   services_title: 'Servicios'
   services_note: 'Puede confiar en nuestra profesionalidad y puntualidad'
